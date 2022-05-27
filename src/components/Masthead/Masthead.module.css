@@ -1,0 +1,34 @@
+.masthead {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  /* border: 1px solid black; */
+}
+
+.hero {
+  width: 80%;
+}
+
+.mastheadRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headerName {
+  font-family: "Noto Serif";
+  letter-spacing: 2px;
+  font-size: 1.2em;
+}
+
+.header {
+  text-transform: uppercase;
+  font-size: 5rem;
+  letter-spacing: 5px;
+}
