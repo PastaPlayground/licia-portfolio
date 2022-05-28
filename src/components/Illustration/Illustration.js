@@ -1,8 +1,11 @@
+import styles from "./Illustration.module.css";
 function Illustration({ name, image }) {
   return (
-    <div>
+    <div className={styles.illustration}>
       <p>{name}</p>
-      <img src={image} />
+      <div className={styles.thumbnail}>
+        <img src={image} />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,18 @@
+.illustration {
+  display: flex;
+  padding: 0.85rem;
+}
+
+.illustration p {
+  display: none;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.illustration img {
+  width: 100%;
+  height: auto;
+  min-height: 3px;
+}

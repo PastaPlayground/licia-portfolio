@@ -1,0 +1,29 @@
+.works {
+  display: flex;
+}
+
+.illustrationContainer {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
+.column {
+  width: 33.33%;
+}
+
+/* tablet */
+@media only screen and (max-width: 1028px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* phone */
+@media only screen and (max-width: 425px) {
+  .column {
+    width: 100%;
+  }
+}
