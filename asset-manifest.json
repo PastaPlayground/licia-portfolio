@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/licia-portfolio/static/css/main.221f9c3a.css",
+    "main.css": "/licia-portfolio/static/css/main.f7d7a0a1.css",
     "main.js": "/licia-portfolio/static/js/main.0307018a.js",
     "static/js/787.a8f848e2.chunk.js": "/licia-portfolio/static/js/787.a8f848e2.chunk.js",
     "static/media/profile.png": "/licia-portfolio/static/media/profile.510991ff6763d2495d9c.png",
     "index.html": "/licia-portfolio/index.html",
-    "main.221f9c3a.css.map": "/licia-portfolio/static/css/main.221f9c3a.css.map",
+    "main.f7d7a0a1.css.map": "/licia-portfolio/static/css/main.f7d7a0a1.css.map",
     "main.0307018a.js.map": "/licia-portfolio/static/js/main.0307018a.js.map",
     "787.a8f848e2.chunk.js.map": "/licia-portfolio/static/js/787.a8f848e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.221f9c3a.css",
+    "static/css/main.f7d7a0a1.css",
     "static/js/main.0307018a.js"
   ]
 }
