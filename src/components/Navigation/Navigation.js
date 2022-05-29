@@ -6,6 +6,10 @@ function Navigation() {
     <div className={styles.navbar}>
       <div className={styles.navbarLeft}>
         <p>
+          {/* react route on gh pages */}
+          {/* <Link to={process.env.PUBLIC_URL}>Home</Link> */}
+
+          {/* react route on localhost */}
           <Link to="/">Home</Link>
         </p>
       </div>

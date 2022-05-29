@@ -13,11 +13,19 @@ function App() {
   return (
     <div className="App">
       {/* include nav in all pages */}
-      <Navigation />
+      {/* <Navigation /> */}
 
       {/* wrap all routes */}
       <Routes>
-        <Route path="/" element={<Masthead />} />
+        <Route
+          path="/"
+          element={
+            <>
+              <Masthead />
+              <Works />
+            </>
+          }
+        />
         {/* <Route path="illustration" element={<Illustration />} />
         <Route path="client" element={<Client />} />
         <Route path="videos" element={<Videos />} /> */}
