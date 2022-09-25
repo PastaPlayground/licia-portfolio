@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation";
 import Masthead from "./components/Masthead/Masthead";
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       {/* include nav in all pages */}
-      {/* <Navigation /> */}
+      <Navigation />
 
       {/* wrap all routes */}
       <Routes>
@@ -26,9 +26,9 @@ function App() {
             </>
           }
         />
-        {/* <Route path="illustration" element={<Illustration />} />
-        <Route path="client" element={<Client />} />
-        <Route path="videos" element={<Videos />} /> */}
+        {/* <Route path="illustration" element={<Illustration />} /> */}
+        {/* <Route path="client" element={<Client />} /> */}
+        {/* <Route path="videos" element={<Videos />} /> */}
         <Route path="works" element={<Works />} />
       </Routes>
     </div>

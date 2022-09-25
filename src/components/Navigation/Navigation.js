@@ -14,14 +14,16 @@ function Navigation() {
         </p>
       </div>
 
+      <p>Licia</p>
+
       <div className={styles.navbarRight}>
         {/* <p>
           <Link to="/illustration">Illustration</Link>
-        </p>
-        <p>
+        </p> */}
+        {/* <p>
           <Link to="/videos">Videos</Link>
-        </p>
-        <p>
+        </p> */}
+        {/* <p>
           <Link to="/client">Client</Link>
         </p> */}
         <p>
